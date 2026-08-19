@@ -1,0 +1,21 @@
+# This file uses sample placeholder values only.
+# Do not commit real OCIDs, keys, fingerprints, subnet IDs, image IDs, or SSH keys.
+
+tenancy_ocid     = "<tenancy_ocid>"
+user_ocid        = "<user_ocid>"
+fingerprint      = "<api_key_fingerprint>"
+private_key_path = "<local_private_key_path>"
+region           = "<oci_region>"
+
+compartment_ocid    = "<compartment_ocid>"
+availability_domain = "<availability_domain_name>"
+subnet_ocid         = "<subnet_ocid>"
+image_ocid          = "<image_ocid>"
+
+instance_display_name  = "demo-terraform-compute"
+hostname_label         = "demotfcompute"
+instance_shape         = "VM.Standard.E2.1.Micro"
+assign_public_ip       = false
+boot_volume_size_in_gbs = 50
+
+ssh_public_key = "<ssh_public_key_value>"
